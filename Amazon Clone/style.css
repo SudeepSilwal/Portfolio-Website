@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #1B1F3A;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+    background-color: #FF7844;
+}
+
+.left {
+    font-size: 1.75rem;
+}
+
+.right {
+    font-size: 1.25rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.left-section {
+    width: 30%;
+    font-size: 3.479rem;
+}
+
+
+.right-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-section img {
+    width: 45%;
+    height: 50%;
+}
+
+.highlight {
+    color: #A64942;
+}
+
+nav ul li a:hover {
+    color: #0b0847;
+    font-size: 1.51rem;
+}
+
+#element {
+    color: #A64942;
+}
+
+.second-section {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    background-color: #FF7844;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.second-section {
+    font-size: 2rem;
+    height: 80vh;
+}
+
+.proj-com {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.second-section h1 {
+    font-size: 1.9rem;
+}
+
+.second-section .box {
+    background-color: white;
+    width: 80vw;
+    height: 3px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.box .verticle {
+    height: 75px;
+    width: 2px;
+    background-color: white;
+    margin: 0 99px;
+}
+
+.amazon-img {
+    width: 316px;
+    height: 190px;
+    position: relative;
+    top: 80px;
+    left: -168px;
+}
+
+.verti-title {
+    color: #FF7844;
+    position: relative;
+    top: 70px;
+    left: -95px;
+    width: 200px;
+}
+
+.verti-desc {
+    color: grey;
+    position: relative;
+    font-size: 0.8rem;
+    width: 200px;
+    top: 80px;
+    left: -113px;
+}
+
+.amazon-img:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
