@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudeep Silwal | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="https://sudeepsilwal.com.np/">Sudeep's Portfolio</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://sudeepsilwal.com.np/">Home</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="/">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My name is <span class="highlight">Sudeep</span>
+                <div>and I am an Enthusiastic</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="img/boy.png" alt="boy">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="proj-com">Projects I have completed</span>
+            <h1>Experiences...</h1>
+            <div class="box">
+                <div class="verticle">
+                    <div class="verti-title">Amazon Clone</div>    
+                     <a href="Amazon Clone/amazon_clone.html"><img class="amazon-img" src="img/amazon_clone.png" alt="Amazon Clone"></a>
+                    <div class="verti-desc">My first web development project after Learning HML and CSS.</div>
+                </div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+                <div class="verticle"></div>
+            </div>
+        </section>
+    </main> 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Coder,', 'Web Developer,', 'Graphics Designer,','Web Designer,','Photo Editor,', 'Video Editor.'  ],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
